@@ -15,10 +15,12 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability-comment": "Stability 'dev' needed to allow requirement of php-resque non-release version",
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "require-comment": "Specific commit 'cf187fae522df085f79837d3763645da066194d6' of php-resque needed",
     "require": {
         "php": ">=5.4",
-        "chrisboulton/php-resque": "dev-master#cf187fae522df085f79837d3763645da066194d6@dev"
+        "chrisboulton/php-resque": "dev-master#cf187fae522df085f79837d3763645da066194d6"
     }
 }
